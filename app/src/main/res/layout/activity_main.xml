@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/graden"
+    android:gravity="center_horizontal"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="2000dp"
+        android:layout_height="300dp"
+
+
+        android:src="@drawable/resize" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO MY VACCINE"
+        android:layout_marginTop="0dp"
+
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_background_blue"
+
+
+
+
+        android:hint=" ENTER YOUR EMAIL" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+
+        android:textColor="@color/white"
+
+        android:background="@drawable/button_background_blue"
+
+
+
+        android:hint=" ENTER YOUR PASSWORD"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:id="@+id/forget"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="5dp"
+        android:text="FORGET PASSWORD?"
+        android:textColor="@color/white"
+        android:textSize="17dp" />
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="LOGIN"
+        android:textSize="20dp"
+        app:backgroundTint="#53C4D3"
+        />
+
+    <Button
+        android:id="@+id/registeruser"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/design_default_color_background"
+        android:text="NEW USER? REGISTER NOW"
+        android:textColor="@color/white"
+
+        android:textSize="14dp"
+        app:backgroundTint="#3CAEE1" />
+
+
+
+
+
+
+</LinearLayout>

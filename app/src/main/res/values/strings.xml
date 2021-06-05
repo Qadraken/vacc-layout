@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" translatable="false">MY VACCINE</string>
+
+    <string-array name="Spinnerlist">
+        <item>RED</item>
+        <item>GREEN</item>
+        <item>YELLO</item>
+
+    </string-array>
+
+</resources>
